@@ -19,6 +19,9 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
+    {{-- <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+    <script type="text/javascript" src="{{asset('js/app.js')}}"></script> --}}
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
