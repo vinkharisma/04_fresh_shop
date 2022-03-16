@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Products;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function welcome()
     {
-        return view('welcome');
+        $products = Products::all();
+        return view('welcome', compact('products'));
     }
     public function about()
     {
